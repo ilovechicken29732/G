@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Settings</title>
+  <link rel="icon" href="img/dashboard-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/new.min.css">
+  <link rel="stylesheet" href="assets/dashboard.css">
+  <script src="js/dashboard.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="title">Dashboard Settings</h1>
+  </header>
+
+  <main>
+    <section>
+      <label for="darkModeInput">Dark Mode:</label>
+      <label class="switch">
+        <input id="darkModeInput" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </section>
+
+    <hr>
+
+    <section>
+      <label for="openMode">Open Dashboard Mode:</label>
+      <select id="openMode">
+        <option value="embed">In this tab</option>
+        <option value="new">In new tab</option>
+        <option value="blank">In about:blank tab</option>
+        <option value="replace">Replace this tab</option>
+        <option value="raw">Raw link</option>
+      </select>
+    </section>
+  </main>
+</body>
+</html>
